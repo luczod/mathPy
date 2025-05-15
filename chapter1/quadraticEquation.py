@@ -1,5 +1,6 @@
 """
 Quadratic equation root calculator
+the roots of the equation x^2 + x + 1 = 0 are both complex numbers.
 """
 
 

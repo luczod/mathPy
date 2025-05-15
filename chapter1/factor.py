@@ -4,7 +4,7 @@
 
 def is_factor(a: int, b: int) -> bool:
     if b % a == 0:
-        return "True"
+        return True
     else:
         return False
 
