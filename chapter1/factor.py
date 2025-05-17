@@ -14,8 +14,6 @@ result = is_factor(4, 1024)
 
 
 # Find the factors of an integer
-
-
 def factors(b: int) -> None:
     for i in range(1, b + 1):
         if b % i == 0:
