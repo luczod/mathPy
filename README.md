@@ -1,6 +1,6 @@
-### Doing Math with Python: Use Programming to Explore Algebra, Statistics, Calculus, and More!
+### Doing Math with Python
 
-AMIT SAHA
+source: Doing Math with Python: Use Programming to Explore Algebra, Statistics, Calculus, and More! By AMIT SAHA
 
 ### Contents
 

@@ -29,7 +29,7 @@ def generate_F_r():
     for dist in r:
         force = G*(m1*m2)/(dist**2)
         F.append(force)
-    
+
     # Call the draw_graph function
     draw_graph(r, F)
 
