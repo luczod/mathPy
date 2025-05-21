@@ -1,4 +1,5 @@
 # 5: Exploring the Relationship Between the Fibonacci Sequence and the Golden Ratio
+# Golden Ratio 1.618033988
 
 import matplotlib.pyplot  as plt
 
