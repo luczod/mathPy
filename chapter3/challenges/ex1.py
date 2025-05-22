@@ -1,11 +1,11 @@
-'''
-Find the the correlation coefficient of two sets of data
-the sets have to be of equal length
-'''
-
+# 1: Better Correlation Coefficient–Finding Program
 
 
 def find_corr_x_y(x: list[float], y: list[float]) -> int:
+  if len(x) != len(y):
+    print("the correlation can not be found, the sets of numbers must be the same length")
+    return 1
+
   n = len(x)
 
   # Find the sum of the products
