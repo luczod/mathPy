@@ -2,7 +2,7 @@
 # A multiplication table for a number lists all of that number’s multiples.
 
 
-def multi_table(a: int) -> None:
+def multi_table(a: float) -> None:
     for i in range(1, 11):
         print("{0} x {1} = {2}".format(a, i, a * i))
 
