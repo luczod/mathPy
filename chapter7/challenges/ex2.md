@@ -43,7 +43,7 @@ Now we apply **gradient descent** to minimize $f(x)$. Key values:
 Gradient descent formula:
 
 $$
-x_{\text{new}} = x_{\text{old}} - \text{step\_size} \cdot f'(x_{\text{old}})
+x_{\text{new}} = x_{\text{old}} - \text{stepSize} \cdot f'(x_{\text{old}})
 $$
 
 ---

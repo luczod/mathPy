@@ -1,5 +1,15 @@
-# 2: Implement the Gradient Descent
-# x**2 + 3*x + 2 | x | -4
+'''
+2: Implement the Gradient Descent
+x**2 + 3*x + 2 | x | -4
+
+Use gradient descent to find the minimum value of a
+single variable function. This also checks for the existence
+of a solution for the equation, f'(x)=0 and plots the intermediate
+points traversed.
+
+In math, domain and range are related to functions. The domain refers to all the possible input values (x-values) a function can accept,
+while the range is the set of all possible output values (y-values) the function can produce
+'''
 
 from sympy import Derivative, Symbol, sympify, SympifyError, solve
 from matplotlib import pyplot as plt
@@ -20,7 +30,7 @@ def draw_graph(X_traversed: list[float], func: Any, var: Symbol):
   # x_val = function_domain(-1, 1, 0.01)
   f_val = [func.subs({ var: x }) for x in x_val]
   plt.plot(x_val, f_val, 'bo')
-  
+
   # calculate the function value at each of the intermediate
   # points traversed
   f_traversed = [func.subs({ var: x }) for x in X_traversed]
